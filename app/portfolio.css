@@ -3806,61 +3806,11 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
       background-size: 24px 24px;
     }
 
-    .hero-terminal {
-      border-radius: 1.75rem;
-      background: hsl(var(--card) / 0.94);
-      box-shadow:
-        0 22px 55px -32px hsl(var(--foreground) / 0.35),
-        0 0 0 1px hsl(var(--border));
-    }
-
-    .terminal-chrome {
-      min-height: 4.25rem;
-      padding-inline: 2rem;
-      background: hsl(var(--secondary) / 0.3);
-    }
-
-    .terminal-chrome > span:not(.terminal-title) {
-      width: 0.95rem;
-      height: 0.95rem;
-      opacity: 0.9;
-    }
-
-    .terminal-title {
-      margin-left: 3rem;
-      font-size: 1.05rem;
-      font-weight: 600;
-      letter-spacing: 0;
-      color: hsl(var(--muted-foreground));
-    }
-
     .terminal-body {
       white-space: pre-wrap;
       word-break: normal;
       overflow-wrap: anywhere;
       color: hsl(var(--foreground) / 0.9);
-    }
-
-
-    @media (max-width: 640px) {
-      .hero-terminal {
-        border-radius: 1.25rem;
-      }
-
-      .terminal-chrome {
-        min-height: 3.5rem;
-        padding-inline: 1.1rem;
-      }
-
-      .terminal-chrome > span:not(.terminal-title) {
-        width: 0.72rem;
-        height: 0.72rem;
-      }
-
-      .terminal-title {
-        margin-left: 0.75rem;
-        font-size: 0.78rem;
-      }
     }
 
     .tech-chip {
